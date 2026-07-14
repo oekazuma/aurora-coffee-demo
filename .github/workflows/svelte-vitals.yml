@@ -17,6 +17,3 @@ jobs:
         with:
           fetch-depth: 0
       - uses: oekazuma/svelte-vitals/packages/action@2c21acbad36c5360228bbb0790dbb4a06b7c773a # @svelte-vitals/action@0.3.0
-        with:
-          diff: origin/${{ github.base_ref }}
-          baseline: origin/${{ github.base_ref }}
