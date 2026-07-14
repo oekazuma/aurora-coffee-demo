@@ -1,0 +1,21 @@
+{
+	"name": "aurora-coffee",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@svelte-vitals/mcp": "^0.11.4",
+		"@svelte-vitals/vite": "^0.15.0",
+		"@sveltejs/adapter-auto": "^7.0.1",
+		"@sveltejs/kit": "^2.69.3",
+		"@sveltejs/vite-plugin-svelte": "^6.0.0",
+		"svelte": "^5.56.4",
+		"svelte-vitals": "^0.25.0",
+		"vite": "^7.0.0"
+	}
+}
