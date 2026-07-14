@@ -1,6 +1,7 @@
 <section>
 	<p class="eyebrow">Since 2019 · Tromsø, Norway</p>
 	<h1>Two people.<br />One tiny roastery.</h1>
+	<img src="/roastery.jpg" alt="Roasting under the northern lights" class="hero" />
 	<p class="lead">
 		Aurora Coffee started as a two-person roastery in Tromsø. We roast tiny batches, ship them the
 		same week, and obsess over sweetness in every cup.
@@ -37,5 +38,10 @@
 		padding-left: 1.1rem;
 		color: #b9b9c3;
 		line-height: 2;
+	}
+	.hero {
+		width: 100%;
+		border-radius: 14px;
+		margin: 1.4rem 0 0.4rem;
 	}
 </style>
